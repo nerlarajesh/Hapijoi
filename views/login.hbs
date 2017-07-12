@@ -1,0 +1,8 @@
+{{#if message}}
+    <p style="color:{{color}}">{{message}}</p>
+{{/if}}
+<form action="/validate" method="POST">
+    <lablel>Email</lablel> <input type="text" name="txtname"/><br/>
+    <label>password</label> <input type="password" name="txtpwd"/><br/>
+    <input type="submit"  value="submit"/>
+</form>
